@@ -4,6 +4,6 @@ RUN apt-get update
 
 RUN apt-get install -y nodejs npm
 
-RUN npm install -g @anthropic-ai/claude-code
+RUN npm install -g @anthropic-ai/claude-code@latest
 
 RUN claude -v
